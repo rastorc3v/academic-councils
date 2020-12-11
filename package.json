@@ -1,0 +1,36 @@
+{
+  "name": "council-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastorc3v/academic-councils-api.git"
+  },
+  "keywords": [
+    "academic",
+    "council",
+    "api"
+  ],
+  "author": "Vladislav Rastorguev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rastorc3v/academic-councils-api/issues"
+  },
+  "homepage": "https://github.com/rastorc3v/academic-councils-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.6",
+    "pg": "^8.5.1",
+    "pg-format": "^1.0.4",
+    "pg-tables-to-jsonschema": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
